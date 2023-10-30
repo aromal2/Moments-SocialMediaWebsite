@@ -6,7 +6,8 @@ import helmet from "helmet";
 
 const expressConfig = (app: Application) => {
   const enableCors = {
-    origin: "*",
+    // origin: "*",
+    origin: "https://m0ments.online",
     exposeHeaders: [
       "Cross-Origin-Opener-Policy",
       "Cross-Origin-Resource-Policy",

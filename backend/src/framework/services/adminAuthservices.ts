@@ -1,6 +1,6 @@
 import  jwt  from "jsonwebtoken";
 import bcrypt from "bcryptjs"
-import { configKey } from "../../../config";
+import { configKey } from "../../config";
 
 export const adminAuthservices =()=>{
 

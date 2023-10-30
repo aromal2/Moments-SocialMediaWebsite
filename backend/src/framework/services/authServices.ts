@@ -1,6 +1,6 @@
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
-import { configKey } from "../../../config";
+import { configKey } from "../../config";
 
 export const authServices = () => {
   const encryptPassword = async (password: string) => {

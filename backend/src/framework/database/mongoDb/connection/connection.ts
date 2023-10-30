@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-import { configKey } from "../../../../../config";
+import { configKey } from "../../../../config";
 
 mongoose.set("strictQuery", true);
 
